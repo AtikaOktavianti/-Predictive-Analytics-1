@@ -149,6 +149,13 @@ Gambar 6. Confussion Matrix SVM
 2. Precision = TP / (TP + FP)
 3. Recall = TP / (TP + FN)
 
+Penjelasan:
+
+- TP (True Positive): Jumlah data positif yang diprediksi dengan benar sebagai positif.
+- TN (True Negative): Jumlah data negatif yang diprediksi dengan benar - sebagai negatif.
+- FP (False Positive): Jumlah data negatif yang diprediksi secara tidak benar sebagai positif (Kesalahan Tipe I).
+- FN (False Negative): Jumlah data positif yang diprediksi secara tidak benar sebagai negatif (Kesalahan Tipe II).
+
 ### Hasil accuracy 3 model yang dilatih:
 | Model | Accuracy |
 | ------ | ------ |
